@@ -49,6 +49,8 @@ toHave |  toBe  ;
 
 define Qw  wou | wéi | firwat | wéini | wat | déi | ween; 
 
+define QExpr fir wien | fir wie | fir ween | fir wee | mat wiem | mat weem | mat wat ; 
+
 define FunctionWord 
 DefiniteArticle | 
 IndefiniteArticle | 

@@ -17,7 +17,7 @@ source gpos.foma
 clear
 
 define StartOfWhQuestion 
-Qw ; 
+Qw | QExpr ; 
 
 define DefaultTagger 
 [..] -> %= q || _ .#. ; 
