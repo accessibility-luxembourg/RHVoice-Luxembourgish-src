@@ -16,7 +16,7 @@
 
 source alphabet.foma
 source tok_config.foma   
-define word [Word hyphen]* Word;
+define word [[Word hyphen]* Word] | [ Letter+ apos];
 #define word [stressMark | Hyphen | lcLetter]+ (apos); #[d apos] | [s apos] | [m apos] | [c apos] | [l apos] | [m apos] | [t apos]; 
 
 
