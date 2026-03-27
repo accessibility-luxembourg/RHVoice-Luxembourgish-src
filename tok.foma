@@ -81,7 +81,7 @@ define tokDIG # want to avoid the inside of a previously marked num
 define tokWORD 
  Abbreviation (INITcase 0:word)  @-> pb ... abb || [sb|TokenTypeTag]  _ eb|pb    # note, we take out any apostrophes
   .o.
- INITcase @-> pb ... word || from _ Letter 
+ INITcase @-> pb ... word || \Letter _ Letter 
   .o.
  Word  @-> pb ... word || from _ \[Letter | lseq | abb];   # note, we take out any apostrophes
 

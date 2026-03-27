@@ -22,7 +22,8 @@ define WSpace ["#x20" | "#xA0" | "#xa0"];   # Ought to be defined in one place
 source tok_sreader_spell.foma
 
 #2 Word components
-define Word [ [D apos] | [d apos] | [Z apos] | [z apos] | [[grapheme+ (grapheme graphem+)] | [grapheme grapheme+] ] ];
+#define Word [ [D apos] | [d apos] | [Z apos] | [z apos] | [[grapheme+ (grapheme graphem+)] | [grapheme grapheme+] ] ];
+define Word [(grapheme+) (apos) grapheme+] | [grapheme+ (apos) (grapheme+)];
 ##
 
 #3 Initialisms
