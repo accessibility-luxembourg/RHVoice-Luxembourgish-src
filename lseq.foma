@@ -16,6 +16,7 @@
 
 
 define specialInits 
+  [{p} : ["/p" "/ii1"]] |   # to overcome ambiguity between single letters P and T
   [{lcgb} : ["/ae1" "/l" "/s" "/ee1" "/zh" "/ee1" "/b" "/ee1"]] | 
   [{ogbl} : ["/oo1" "/zh" "/ee1" "/b" "/ee1" "/ae1" "/l"]] | 
   [{cgdis} : ["/s" "/ee1" "/zh" "/ee1" "/d" "/ii1" "/s"]] | 
