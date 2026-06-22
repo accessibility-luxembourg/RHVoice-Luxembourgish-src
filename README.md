@@ -4,7 +4,7 @@ This repository contains the FOMA source code and associated source files for bu
 
 If you want to know more about the Luxembourgish voices, how to install and configure them, please consult this article: [Two new voices for reading Luxembourgish](https://accessibilite.public.lu/en/news/2026-03-30-screenreaderLB.html).
 
-The G2P converts written Luxembourgish into a phonetic transcription (X-SAMPA, see `x-sampa.foma`) that drives the speech synthesizer. It handles tokenization, abbreviations, compounds, numbers, spelling, lexicon lookup, and the phonological rules used to pronounce out-of-lexicon words.
+The G2P converts written Luxembourgish into a phonetic transcription that drives the speech synthesizer. It handles tokenization, abbreviations, compounds, numbers, spelling, lexicon lookup, and the phonological rules used to pronounce out-of-lexicon words.
 
 ## Requirements
 
